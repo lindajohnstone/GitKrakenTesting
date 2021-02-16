@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace GitKrakenTesting
 {
@@ -6,7 +6,8 @@ namespace GitKrakenTesting
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var name = "Linda";
+            Console.WriteLine($"Hello {name}!");
         }
         
     }
